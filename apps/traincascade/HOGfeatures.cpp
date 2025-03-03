@@ -44,7 +44,7 @@ void CvHOGEvaluator::setImage(const Mat &img, uchar clsLabel, int idx)
 //    _writeFeatures( features, fs, featureMap );
 //}
 
-void CvHOGEvaluator::writeFeatures( FileStorage &fs, const Mat& featureMap ) const
+void CvHOGEvaluator::saveFeatures( FileStorage &fs, const Mat& featureMap ) const
 {
     int featIdx;
     int componentIdx;
